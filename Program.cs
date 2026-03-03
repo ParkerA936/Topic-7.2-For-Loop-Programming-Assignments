@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Part2();
+            Part3();
         }
         public static void Part1()
         {
@@ -32,9 +32,22 @@
             //assignment 3
             string name;
             Console.WriteLine("what is your name");
-            name= Console.ReadLine();
+            name= Console.ReadLine().ToLower();
+            if ( name == "aldworth")
+            {
+                for (int i = 1; i <= 5; i = i + 1)
+                {
+                    Console.WriteLine(name);
+                }
 
-
+            }
+            else
+            {
+                for(int i = 1;i <= 10;i = i + 1)
+                {
+                    Console.WriteLine(name);
+                }
+            }
 
 
 
